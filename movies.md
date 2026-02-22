@@ -13,3 +13,8 @@ The Shawshank Redemption (1994)
 seven
 snatch
 memento
+l'haine
+pulp fiction
+fight club
+reservoir dogs
+jackie brown
