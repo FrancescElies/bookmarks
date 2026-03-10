@@ -1,5 +1,18 @@
 # Snippets
 
+```rust
+use std::collections::{
+    HashMap, HashSet,  // tracking seen states, counts, graph edges, etc.
+    VecDeque,          // BFS queues
+    BTreeMap, BTreeSet // sorted maps/sets (useful for interval queries).
+    BinaryHeap // max heap priority queue, std::cmp::Reverse for min heap
+};
+use std::cmp::{min, max}; // simple min/max usage.
+use std::iter::FromIterator;
+use std::fs;  // fs::read_to_string – reading input files quickly.
+```
+
+
 ## String & Parsing
 
 ### Split and collect into collections:
