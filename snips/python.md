@@ -6,7 +6,7 @@ import itertools as it #  combinations, permutations, chunking, sliding windows.
 from collections import Counter, defaultdict, deque #  Counter (freqs), defaultdict (graphs), deque (BFS).
 from functools import lru_cache  # memoization
 from operator import itemgetter, attrgetter
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict, field
 
 import math   # gcd/lcm, sqrt, inf, trig, etc.
 import heapq  # priority queues for Dijkstra/A*.
@@ -14,9 +14,13 @@ import bisect # binary # # search in sorted lists
 # BTreeMap: bisect + sorted list of tuples
 # BTreeSet: bisect + sorted list
 
+# Not std lib
+from attrs import define, asdict, validators, evolve, frozen
+from cattrs import structure, unstructure
+```
 
 # File I/O
-```
+
 ## String & Parsing
 
 ### Split and convert in one line:
